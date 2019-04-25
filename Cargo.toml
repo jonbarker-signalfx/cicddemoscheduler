@@ -1,0 +1,15 @@
+[package]
+name = "curlscheduler"
+version = "0.1.0"
+authors = ["Jon Barker <jonathan.t.barker@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+curl = "0.4.21"
+systemd-crontab-generator = "1.0.2"
+curl-easybuilder = "0.1.0"
+serde_json = "1.0.39"
+reqwest = "0.9.15"
+crontab = "0.2.0"
+cronjob = "0.2.15"
+clokwerk = "0.1.0"
